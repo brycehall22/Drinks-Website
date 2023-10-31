@@ -1,0 +1,62 @@
+h1 {
+    font-size:60px;
+    text-align: center;
+    color:#2B2B2B;
+    background-color: #F6C45A;
+    margin: 15px;
+    border-radius: 50px;
+    -webkit-text-stroke: 1px white;
+    font-weight: bold;
+}
+
+body {
+    background-color: #2B2B2B;
+
+}
+
+button {
+    color: #2B2B2B;
+    background: #F6C45A;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 0px 0px;
+    margin: 10px;
+    outline: none;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-color: #E44D26;
+}
+
+.links {
+    text-align: center;
+}
+
+button:hover {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background: #E44D26;
+    color: #2B2B2B;
+}
+
+.container {
+    text-align: center;
+}
+.drink-item {
+    background-color: #F6C45A;
+    text-align: center;  
+    width: 214px;
+    height: 300px;
+    border: 15px solid #E44D26;
+    padding: 10px;
+    margin: 10px;
+    float:right;
+  }
+.photos {
+    width: 150px;
+    height: 150px;
+}

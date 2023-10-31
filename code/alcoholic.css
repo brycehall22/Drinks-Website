@@ -1,0 +1,110 @@
+body {
+    background-color: #2B2B2B;
+}
+.buttons {
+    color: #2B2B2B;
+    background: #F6C45A;
+    font-family:Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 0px 0px;
+    margin: 10px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-color:  #E44D26;
+}
+
+h2 {
+    font-weight: bold;
+    text-align: center;
+    color: #2B2B2B;
+    background-color: #F6C45A;
+    border-radius: 50px;
+    -webkit-text-stroke: 1px white;
+    margin: 15px;
+    font-size: 60px;
+    font-family: Times;
+}
+
+input {
+    height: 1.2rem;
+    font-size: 1.2rem;
+    background-color: white;
+    color: #2B2B2B;
+}
+
+button {
+    margin-top: 1rem;
+}
+
+button:hover {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background: #E44D26;
+    color: #2B2B2B;
+}
+
+.container {
+    flex-direction:row;
+    text-align: center;
+}
+.links {
+    text-align: center;
+}
+
+.drink-item {
+    background-color: #F6C45A;
+    text-align: center;  
+    width: 214px;
+    height: 325px;
+    border: 15px solid #E44D26;
+    padding: 10px;
+    margin: 10px;
+    float:right;
+  }
+
+.photos {
+    width: 150px;
+    height: 150px;
+}
+
+.bg-image {
+    text-align: center;
+    height: 40%;
+    width: 100%;
+}
+
+.bg-text {
+    color: #2B2B2B;
+    font-weight: bold;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 20%;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.bg-text2 {
+    position: absolute;
+    top: 27%;
+    left: 49%;
+    color: transparent;
+    text-align: center;
+    background-color: transparent;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: #2B2B2B; 
+   }
